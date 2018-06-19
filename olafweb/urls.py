@@ -1,8 +1,8 @@
 from django.urls import path
-from . import views
+from olafweb import views
 
 
 urlpatterns = [
 
-    path('accueil', views.home),
+    path('', views.home),
 ]
